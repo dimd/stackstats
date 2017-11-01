@@ -1,0 +1,20 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Stackstats results</title>
+</head>
+
+<body>
+  <p>Total accepted answers: {{ total_accepted_answers }}</p>
+  <p>Accepted answers average score: {{ accepted_answers_average_score }}</p>
+  <p>Average answer per question: {{ average_answer_per_question }}</p>
+  <p>Top ten answers and comments count</p>
+  <ul>
+    {% for answer, count in top_ten_answers_comment_count.iteritems() %}
+      <li>{{ answer }}: {{ count }}</li>
+    {% endfor %}
+</body>
+</html>
