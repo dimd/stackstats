@@ -1,6 +1,6 @@
 Installation
 =============
-After you have extracted the contents of the archive:
+After you have extracted the contents of the archive (let's say you extracted in a directory named stats):
 ```bash
 $ pip install file://stats
 ```
