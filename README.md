@@ -2,7 +2,7 @@ Installation
 =============
 After you have extracted the contents of the archive (let's say you extracted it in a directory named stats):
 ```bash
-$ pip install file://stats
+$ pip install file://python-assignment
 ```
 
 Execution
